@@ -1,0 +1,219 @@
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background: rgb(79,0,0);
+    background: radial-gradient(circle, rgba(79,0,0,1) 0%, rgba(0,0,0,1) 100%);
+    line-height: 1.3 !important;
+    font-family: 'Teko', sans-serif;
+}
+
+/* HEADER */
+.navbar-brand{
+    font-size: 65px;
+    font-weight: bold;
+    color: #f88f01;
+}
+.navbar-brand:hover{
+    color: hsl(34, 91%, 56%);
+}
+
+.navbar-style{
+    margin-left: 12px;
+}
+
+.navbar-style a{
+    color: white;
+    font-size: 23px;
+    font-weight: 500;
+}
+.navbar-style a:hover{
+    color: hsla(0, 0%, 100%, 0.699);
+}
+
+
+
+.fas, .fab{
+    color: white;
+}
+
+.fas, .fab a:hover{
+    color: hsla(0, 0%, 100%, 0.699);
+
+}
+/* HEADER */
+
+/* 1 SECTION */
+.sec{
+    padding-top: 5rem;
+}
+
+
+.burguer{
+    font-weight: bold;
+    font-size: 125px;
+    position: absolute;
+    z-index: 0;
+    left: 5rem;
+    top: 5rem;
+}
+
+.fries{
+    font-weight: bold;
+    font-size: 145px;
+    position: absolute;
+    z-index: 0;
+    left: 5rem;
+    bottom: 12rem;
+    transform: rotate(-45deg);
+}
+
+
+.item .img1,
+.item .img2{
+    width: 70% !important;
+    margin: auto !important;
+}
+
+.item .img3{
+    width: 70.9% !important;
+}
+
+
+
+.text{
+    position: absolute;
+    z-index: 10;
+    right: 6rem;
+}
+
+.text h3{
+    color: #f88f01;
+}
+
+.text p{
+    color:  hsla(0, 0%, 100%, 0.699);
+}
+
+.carousel-section{
+    padding-left: 105px;
+}
+
+.carousel-item .img1{ 
+    position:relative;
+    left:90px;
+}
+
+.carousel-item .img3{ 
+    position:relative;
+    left:122px;
+}
+
+/* 1 SECTION */
+
+
+
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+    button{
+        display: none;
+    }
+
+    .navi{
+        display: flex;
+        flex-direction: inherit;
+    }
+    .navi .navi-li{
+        padding-right: 1rem;
+    }
+
+
+    .sec {
+        padding-top: 5rem;
+    }
+
+    .sec .text{
+        padding-top: 6rem;
+        position: initial;
+    }
+
+    .sec .text h3{
+        text-align: center;
+    }
+
+    .sec .text p{
+        text-align: justify;
+        padding: 0 6rem;
+    }
+
+    .burguer{
+    font-size: 53px;
+    left: 4rem;
+    top: 1rem;
+    }
+
+    .carousel-item .img1{
+        left: 71px;
+    }
+
+    .fries{
+        font-size: 70px;
+        left: 5rem;
+        bottom: 3rem;
+    }
+
+    .carousel-item .img3{
+        left: 8rem;
+        width: 60.9% !important;
+    }
+
+    .icons{
+        flex-direction: initial;
+        padding-left: 13rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .icons .fa-facebook{
+        margin-right: 2rem;
+    }
+        
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px){ 
+    h1{
+        font-size: 3em
+    }
+
+    .btn-custom{
+        margin: 10px 15px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px){ 
+    h1{
+        font-size: 4em
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    h1{
+        font-size: 5em
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    h1{
+        font-size: 6em
+    }
+}
+
+
+
+
