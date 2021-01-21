@@ -25,12 +25,12 @@ Site criado para atualizar o sistema de uma lanchonete, a tornado mais expansiva
 ## :checkered_flag: Conteudo
 
  ### Web
- <img src="screen-readme/ct1" />
+ <img src="screen-readme/ct1.png" />
  
  <br />
 
  ### Mobile
- <img src="screen-readme/ct2" />
+ <img src="screen-readme/ct2.png" />
 
  <br />
 
