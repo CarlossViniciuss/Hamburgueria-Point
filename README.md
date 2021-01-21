@@ -36,7 +36,7 @@ Site criado para atualizar o sistema de uma lanchonete, a tornado mais expansiva
 
 ## 🛠 Ferramenta
 
-A biblioteca do Bootstrap foi utilizada para conclusão desse projeto
+A biblioteca Bootstrap foi utilizada para conclusão desse projeto
 
 - [Bootstrap] (https://getbootstrap.com/)
 <br />
