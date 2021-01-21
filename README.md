@@ -25,7 +25,7 @@ Site criado para atualizar o sistema de uma lanchonete, a tornado mais expansiva
 ## :checkered_flag: Conteudo
 
  ### Web
- <img src="
+ 
  <br />
 
 ## 🛠 Ferramenta
@@ -51,5 +51,5 @@ Este projeto esta sobe a licença [MIT](./LICENSE).
 
 Feito com ❤️ por Carlos Vinicius 👋🏽 Entre em contato!
 
-[![Linkedin Badge](https://img.shields.io/badge/-Carlos-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://https://www.linkedin.com/in/carlos-vinicius-95745a1a4)](https://www.linkedin.com/in/tgmarinho/) 
+[![Linkedin Badge](https://img.shields.io/badge/-Carlos-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://https://www.linkedin.com/in/carlos-vinicius-95745a1a4)](https://www.linkedin.com/in/carlos-vinicius-95745a1a4) 
 [![Gmail Badge](https://img.shields.io/badge/-carlosvinicius.index@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:carlosvinicius.index@gmail.com)](mailto:carlosvinicius.index@gmail.com)
