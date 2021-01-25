@@ -25,7 +25,7 @@ Site criado para atualizar o sistema de uma lanchonete, a tornado mais expansiva
 ## :checkered_flag: Conteudo
 
  ### Web
- <img src="screen-readme/ct1.png" />
+![ Alt text](https://j.gifs.com/1Wgr93.gif)
  
  <br />
 
