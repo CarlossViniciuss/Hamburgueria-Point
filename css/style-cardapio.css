@@ -2,7 +2,7 @@ body {
     width: 100%;
     height: 100%;
     overflow-x: hidden;
-    background: rgb(79, 0, 0);
+    background: rgb(79,0,0);
     background: radial-gradient(circle, rgba(79,0,0,1) 0%, rgba(0,0,0,1) 100%);
     line-height: 1.3 !important;
     font-family: 'Teko', sans-serif;
@@ -42,75 +42,49 @@ body {
 
 }
 /* HEADER */
-
-/* 1 SECTION */
-.sec{
-    padding-top: 5rem;
+.zoom {
+	overflow: hidden;
 }
 
-
-.burguer{
-    font-weight: bold;
-    font-size: 125px;
-    position: absolute;
-    z-index: 0;
-    left: 5rem;
-    top: 5rem;
+.zoom img {
+	max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
 }
 
-.fries{
-    font-weight: bold;
-    font-size: 145px;
-    position: absolute;
-    z-index: 0;
-    left: 5rem;
-    bottom: 12rem;
-    transform: rotate(-45deg);
-}
-
-
-.item .img1,
-.item .img2{
-    width: 70% !important;
-    margin: auto !important;
-}
-
-.item .img3{
-    width: 70.9% !important;
+.zoom:hover img {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
 }
 
 
 
-.text{
-    position: absolute;
-    z-index: 10;
-    right: 6rem;
-}
 
-.text h3{
+
+
+h2{
     color: #f88f01;
+    text-transform: uppercase;
+    font-size: 5em;
 }
 
-.text p{
-    color:  hsla(0, 0%, 100%, 0.699);
+h3{
+    color: #f88f01;
+    text-transform: uppercase;
+    font-size: 2em;
 }
 
-.carousel-section{
-    padding-left: 105px;
+img{
+    margin-bottom: 4rem;
 }
 
-.carousel-item .img1{ 
-    position:relative;
-    left:90px;
+button{
+    width: 40%;
+    height: 5rem;
+    margin-bottom: 2rem;
 }
-
-.carousel-item .img3{ 
-    position:relative;
-    left:122px;
-}
-
-/* 1 SECTION */
-
 
 @media (max-width: 320px){
     button{
@@ -200,7 +174,6 @@ body {
     }
 
 }
-
 
 
 
@@ -321,23 +294,3 @@ body {
         font-size: 4em
     }
 }
-
-/* Large devices (desktops, 992px and up)
-@media (min-width: 992px) and (max-width: 1199.98px) { 
-    h1{
-        font-size: 5em
-    }
-}
-*/
-
-/* Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { 
-    h1{
-        font-size: 6em
-    }
-}
-*/
-
-
-
-
